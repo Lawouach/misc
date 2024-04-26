@@ -1,0 +1,17 @@
+{
+    "version": "1.0.0",
+    "title": "Hello world!",
+    "description": "Say hello to the world.",
+    "method": [
+      {
+        "type": "action",
+        "name": "say-hello",
+        "provider": {
+          "type": "process",
+          "path": "echo",
+          "arguments": "hello"
+        }
+      }
+    ]
+}
+
